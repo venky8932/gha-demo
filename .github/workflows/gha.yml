@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Hello Stop
-       run: echo "Hello GHA"
+       run: |
+        echo "hello venky"
+        echo "hello devops"
